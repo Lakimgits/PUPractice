@@ -164,12 +164,12 @@ li{
 #content{
     display: flex;
     flex-direction: column;
+    
     background-color: #9e9e9e;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
     margin-top: 2.58%;
-
 
     position: fixed;
 }
@@ -179,6 +179,17 @@ li{
     margin-bottom: 10%;
 }
 
+#content a{
+    text-decoration: none;
+    
+}
+
 h4{
     text-decoration: underline;
+}
+
+#thing{
+    display: flex;
+    flex-direction: column;    
+    row-gap: 30px;
 }
