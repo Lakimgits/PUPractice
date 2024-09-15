@@ -163,6 +163,7 @@ li{
 
 #content{
     display: flex;
+    flex-direction: column;
     
     background-color: #9e9e9e;
     border: 1px solid #ddd;
@@ -185,10 +186,4 @@ li{
 
 h4{
     text-decoration: underline;
-}
-
-#thing{
-    display: flex;
-    flex-direction: column;    
-    row-gap: 30px;
 }
